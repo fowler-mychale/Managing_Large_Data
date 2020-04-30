@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import time
 
-
 #read csv file
 df = pd.read_csv('/Users/Mike_F/Desktop/Crime_Data_2010_2017.csv',dtype={'Time Occurred': np.int16, 'Area ID': np.int16,'Reporting District': np.int16, 'Crime Code': np.float16, 'Victim Age': np.float16, 'Premise Code': np.float16, 'Crime Code 1': np.float16})
 
@@ -55,19 +54,3 @@ def converter(gender):
 
 #save to file
 pd.DataFrame.to_csv(df,"" + time.strftime('%Y-%m-%d') + ".csv",',')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
