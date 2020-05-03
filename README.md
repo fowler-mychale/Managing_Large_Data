@@ -1,8 +1,10 @@
 # Managing_Large_Data
 
 
-## The Raw Data
+## The Raw Data at a glance.
+At a glance. This dataset has 1,584,315 rows and 26 columns. The dataset is also filled with missing values, null/Nan cells and information that is incomplete. 
 
+Data in Raw Form
 <img src="Before.PNG" width="1000" height="250"></br></br>
 
 After
