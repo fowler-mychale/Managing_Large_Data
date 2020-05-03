@@ -1,6 +1,7 @@
 # Managing_Large_Data
-Before
-<img src="Before.PNG" width="1000" height="250">
+
+<img src="Before.PNG" width="1000" height="250"></br></br>
+
 After
 <img src="After.PNG" width="1000" height="250">
 
