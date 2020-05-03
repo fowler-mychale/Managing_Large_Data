@@ -17,7 +17,7 @@ df.drop(['Premise Description','Weapon Description','Victim Descent','Weapon Use
 
 #select start and end dates to filter out
 start_date = '01-01-2017'
-end_date = '01-05-2017'
+end_date = '12-31-2017'
 
 #set the mask dataframe
 bool_mask = (df['Date Occurred'] > start_date) & (df['Date Occurred'] <= end_date)
