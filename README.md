@@ -18,7 +18,7 @@ Data in Raw Form
 Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude/longitude and change the date format. The document went from 26 columns to now 14.
 
 After Cleaning the Information
-<img src="After.PNG" width="1000" height="250">
+
 
 | Date Reported |Date Occurred  | Time Occurred | Area ID | Area Name | Reporting District | Victim Sex | Difference|Longitude|Latitude|
 |---------------| :-------------|-------------|---------|---------  |--------------------|------------|------------|---------|---------|
@@ -30,7 +30,7 @@ After Cleaning the Information
 
 ## Actionable Information
 Now that the data is manageable. We can create insights. In order to create a coherent dashboard. I thought it necessary to limit the information to focus on a single year (2017). 
-
+<img src="Data.PNG" width="1000" height="250">
 </br></br>
 
 ### Tools used for this project
