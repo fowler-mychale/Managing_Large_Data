@@ -7,11 +7,12 @@ At a glance. This dataset has 1,584,315 rows and 26 columns. The dataset is also
 Data in Raw Form
 
 
-| DR Number     | Date Reported |Date Occurred| Cool  | Cool  | Cool  | Cool  | Cool  | Cool  |       |        |       |       |
-|---------------| :-------------|-------------|-------|-------|-------|-------|-------|-------|-------|--------|-------|-------|
-| 1584316       | 12/31/2005    | 12/28/2005  | Cool  | Cool  | Cool  | Cool  | Cool  | Cool  | Cool  | Cool   | Cool  | Cool  |
-| 102005556     | 01/25/2010    | 01/22/2010  |       | Cool  | Cool  | Cool  | Cool  | Cool  | Cool  | Cool   | Cool  | Cool  |
-| 101822289     | 11/11/2101    | 11/10/2010  |       | Cool  | Cool  | Cool  | Cool  | Cool  | Cool  | Cool   | Cool  | Cool  |
+| DR Number     | Date Reported |Date Occurred| Time Occurred | Area ID | Area Name | Reproting District | MO Codes | Victim Age |
+|---------------| :-------------|-------------|---------------|---------|-----------|--------------------|----------|------------|
+| 1208575       |03/14/2013     | 03/11/2013  |     1800      |   12    |77th Street|1241                |          |     30     |
+| 102005556     | 01/25/2010    | 01/22/2010  |               |   20    |Olympic    |2071                |          |            |
+| 101822289     | 11/11/2101    | 11/10/2010  |     1800      |   18    |Southeast  |1823                |          |     18     | 
+
 
 ## Adjustments to the document.
 Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude and longitude. The document went from 26 columns to now 14.
