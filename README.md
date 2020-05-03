@@ -15,16 +15,22 @@ Data in Raw Form
 
 
 ## Adjustments to the document.
-Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude and longitude. The document went from 26 columns to now 14.
+Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude/longitude and change the date format. The document went from 26 columns to now 14.
 
 After Cleaning the Information
 <img src="After.PNG" width="1000" height="250">
+
+| Date Reported |Date Occurred| Time Occurred | Area ID | Area Name | Reporting District | Victim Sex | Difference |Longitude|Latitude|
+|---------------| :-------------|-------------|---------|---------  |--------------------|------------|------------|---------|--------|
+| 2017-07-21    | 2017-07-20    |     2000    |   10    |West Valley|1047                |     M      |     1      |0.0000   |0.0000  |
+| 2017-07-21    | 2017-07-212   |     1000    |   10    |West Valley|1008                |     M      |     0      |0.0000   |0.0000  | | 2017-04-22    | 2017-04-21    |     1930    |    2    |Rampart    |201                 |     0      |     1      |34.0886  |-118.297| 
+
+
 
 
 ## Actionable Information
 Now that the data is manageable. We can create insights. In order to create a coherent dashboard. I thought it necessary to limit the information to focus on a single year (2017). 
 
-<img src="Data.PNG" width="1000" height="450">
 </br></br>
 
 ### Tools used for this project
