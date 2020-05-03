@@ -15,7 +15,7 @@ After Cleaning the Information
 
 
 ## Actionable Information
-Now that the data is manageable. We can create insights. In order to create a coherent dashboard. I thought it necessary to limit the information to focus on a single year. 
+Now that the data is manageable. We can create insights. In order to create a coherent dashboard. I thought it necessary to limit the information to focus on a single year (2017). 
 
 <img src="Data.PNG" width="1000" height="450">
 
