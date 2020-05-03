@@ -20,10 +20,10 @@ Once it was determined what information I could and could not use; I went ahead 
 After Cleaning the Information
 <img src="After.PNG" width="1000" height="250">
 
-| Date Reported |Date Occurred| Time Occurred | Area ID | Area Name | Reporting District | Victim Sex | Difference |Longitude|Latitude|
-|---------------| :-------------|-------------|---------|---------  |--------------------|------------|------------|---------|--------|
-| 2017-07-21    | 2017-07-20    |     2000    |   10    |West Valley|1047                |     M      |     1      |0.0000   |0.0000  |
-| 2017-07-21    | 2017-07-212   |     1000    |   10    |West Valley|1008                |     M      |     0      |0.0000   |0.0000  | | 2017-04-22    | 2017-04-21    |     1930    |    2    |Rampart    |201                 |     0      |     1      |34.0886  |-118.297| 
+| Date Reported |Date Occurred  | Time Occurred | Area ID | Area Name | Reporting District | Victim Sex | Difference|Longitude|Latitude|
+|---------------| :-------------|-------------|---------|---------  |--------------------|------------|------------|---------|---------|
+| 2017-07-21    | 2017-07-20    |     2000    |   10    |West Valley|1047                |     M      |     1      |0.0000   |0.0000   |
+| 2017-07-21    | 2017-07-212   |     1000    |   10    |West Valley|1008                |     M      |     0      |0.0000   |0.0000   | | 2017-04-22    | 2017-04-21    |     1930    |    2    |Rampart    |201                 |     0      |     1      |34.0886  |-118.297 | 
 
 
 
