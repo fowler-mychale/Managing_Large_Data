@@ -1,5 +1,6 @@
 # Managing_Large_Data
-</br>
+
+
 ## The Raw Data
 
 <img src="Before.PNG" width="1000" height="250"></br></br>
