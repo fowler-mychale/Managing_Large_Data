@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import time
 
+
 df = pd.read_csv('/Users/Mike_F/Desktop/Crime_Data_2010_2017.csv',dtype={'Time Occurred': np.int16, 'Area ID': np.int16,'Reporting District': np.int16, 'Crime Code': np.float16, 'Victim Age': np.float16, 'Premise Code': np.float16, 'Crime Code 1': np.float16})
 
 #convert to datetime formatsns.heatmap(df, yticklabels=False, cbar=False,cmap='summer')
@@ -12,19 +13,8 @@ df['Date Reported'] = pd.to_datetime(df['Date Reported'])
 df['Difference'] = (df['Date Reported'] - df['Date Occurred']).dt.days
 
 #drop unsued columns or cloumns with too many blank values
-df.drop(['Premise Description','Weapon Description','Victim Descent','Weapon Used Code','Crime Code 3','Crime Code 2','Crime Code 4','Address','Cross Street','DR Number','Status Description','Crime Code Description','MO Codes','Status Code'], axis=1,inplace=True)
+df.drop(['Premise Description','Weapon Description','Weapon Used Code','Crime Code 3','Crime Code 2','Crime Code 4','Address','Cross Street','DR Number','Status Description','Crime Code Description','MO Codes','Status Code'], axis=1,inplace=True)
 
-#select start and end dates to filter out
-start_date = '01-01-2017'
-end_date = '12-31-2017'
-
-#set the mask dataframe
-bool_mask = (df['Date Occurred'] > start_date) & (df['Date Occurred'] <= end_date)
-
-#assign mask to df
-df = df.loc[bool_mask]
-
-#create new columns for lat and long
 new = df['Location '].str.split(", ", n = 1, expand = True)
 df['Latitude']= new[0] 
 df['Longitude']= new[1]
@@ -34,6 +24,12 @@ df.drop(columns = ['Location '], inplace = True)
 
 #create two seperate columns for location
 cols = ['Latitude', 'Longitude']
+
+df['Month Occurred'] = df['Date Occurred'].apply(lambda date: date.month)
+df['Year Occurred'] = df['Date Occurred'].apply(lambda date: date.year)
+
+df.drop(['Date Reported','Date Occurred'], axis=1,inplace=True)
+
 
 #remove the parenthesis from lat and long
 def removeparen():
@@ -50,6 +46,6 @@ def converter(gender):
          return 1
      else:
          return 0
-
+print(df.head())
 
 pd.DataFrame.to_csv(df,"" + time.strftime('%Y-%m-%d') + ".csv",',')
