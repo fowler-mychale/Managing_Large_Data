@@ -15,7 +15,7 @@ Data in Raw Form
 
 
 ## Adjustments to the document.
-Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude/longitude and change the date format. The document went from 26 columns to now 14.
+Once it was determined what information I could and could not use; I went ahead and removed them from the set. Upon review, I also realized that I could add an entirely new column called "Difference" which is the difference (in days) from the day the crime occrred and reported. I also thought it prudent to seperate the geolaction column into two individual columns for latitude/longitude and change the date format. I also did the same to the "Date Occurred" column where I seperated by month and year.
 
 After Cleaning the Information
 
@@ -29,7 +29,7 @@ After Cleaning the Information
 
 
 ## Actionable Information
-Now that the data is manageable. We can create insights. In order to create a coherent dashboard. I thought it necessary to limit the information to focus on a single year (2017). 
+Now that the data is manageable. We can create insights. In order to create a coherent dashboard. 
 <img src="Insight.PNG" width="1000" height="500">
 </br></br>
 
