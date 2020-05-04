@@ -29,7 +29,7 @@ After Cleaning the Information
 
 
 ## Actionable Information
-Now that the data is manageable. We can create useful insights.</br></br>  
+Now that the data is manageable. We can create useful insights.</br>
 <img src="Insight.PNG" width="1000" height="500">
 </br></br>
 
