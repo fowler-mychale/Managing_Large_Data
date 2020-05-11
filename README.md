@@ -38,4 +38,6 @@ Now that the data is manageable. We can create useful insights.
 - Python 3.8.2
 - AWS Quicksight
 - MS EXCEL
+- VS Code
+- CMD/Powershell
 
