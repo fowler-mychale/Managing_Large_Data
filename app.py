@@ -5,7 +5,7 @@ import time
 
 df = pd.read_csv('/Users/Mike_F/Desktop/Crime_Data_2010_2017.csv',dtype={'Time Occurred': np.int16, 'Area ID': np.int16,'Reporting District': np.int16, 'Crime Code': np.float16, 'Victim Age': np.float16, 'Premise Code': np.float16, 'Crime Code 1': np.float16})
 
-#convert to datetime formatsns.heatmap(df, yticklabels=False, cbar=False,cmap='summer')
+#convert to datetime
 df['Date Occurred'] = pd.to_datetime(df['Date Occurred'])
 df['Date Reported'] = pd.to_datetime(df['Date Reported'])
 
