@@ -41,3 +41,6 @@ Now that the data is manageable. We can create useful insights.
 - VS Code
 - CMD/Powershell
 
+### Link to datset</br>
+https://www.kaggle.com/cityofLA/crime-in-los-angeles
+
